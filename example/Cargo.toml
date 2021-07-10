@@ -1,0 +1,11 @@
+[package]
+name = "algo-prompt-example"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+yew = "0.18.0"
+algonaut = { git = "https://github.com/manuelmauro/algonaut", branch = "main" }
+algo-prompt = { path = "../../algo-prompt" }
+wasm-logger = "0.2"
+log = "0.4"
